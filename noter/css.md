@@ -139,8 +139,8 @@ a[target="_blank"] {
   /* egenskaber */
 }
 
-/* links hvor alt indholder et ord */
-image[alt*="vand"] {
+/* billeder hvor alt indholder et ord */
+img[alt*="vand"] {
   /* egenskaber */
 }
 ```
