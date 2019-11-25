@@ -1,0 +1,54 @@
+h1,
+h2 {
+  color: red;
+}
+
+p a {
+  color: red;
+}
+
+div[data-kmdid="1"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li:nth-child(2)::first-line {
+  color: red;
+}
+
+h1:hover {
+  color: green;
+}
+
+#foot::first-letter {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 2 id, 2 elementer =  202 */
+
+div#d1 span#s1 {
+  /* VINDER */
+  color: green;
+}
+
+/* 2 elementer =  002 */
+
+div span {
+  color: red;
+}
+
+/* 1 klasse, 2 elementer =  012 */
+
+div span.c1 {
+  color: blue;
+}
+
+/* 1 klasse, 1 id, 2 elementer =  112 */
+
+div#d1 span.c1 {
+  color: pink;
+}

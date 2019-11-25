@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+}
+
+.ov {
+  color: red;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 10px;
+}
+
+.streg {
+  border: 1px dotted red;
+}
