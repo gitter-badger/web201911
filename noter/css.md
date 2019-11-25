@@ -181,6 +181,16 @@ p i:first-child {
 p:first-child i {
   /* egenskaber */
 }
+
+/* 2. li under ul */
+ul li:ntn-child(2) {
+  /* egenskaber */
+}
+
+/* hver anden li under ul */
+ul li:ntn-child(even) {
+  /* egenskaber */
+}
 ```
 
 ### Pseudo Elements (::)
@@ -338,7 +348,7 @@ Brig Visual Studio Code's popup i CSS filer til at se resultat af beregning.
 ## Fonte
 
 - Interne fonte
-  - Arial, Sans-Serif, Times New Roman, Courier New etc.
+  - Arial, Sans-Serif, Times New Roman, Courier New etc.
 - Eksterne fonte
 
   - WOFF-format, True Type-format

@@ -1,6 +1,6 @@
 # Klientbaseret web udvikling
 
-Noter sidst rettet d. 24. november 2019<!-- { templatetype:'function', namespace:'Cronberg.TemplateApp.Core', methodname: 'Now', arguments:'D;da' } --> af Michell Cronberg.
+Noter sidst rettet d. 25. november 2019<!-- { templatetype:'function', namespace:'Cronberg.TemplateApp.Core', methodname: 'Now', arguments:'D;da' } --> af Michell Cronberg.
 
 Indhold
 

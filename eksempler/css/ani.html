@@ -6,22 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
-      div#trans {
-        width: 400px;
-        background-color: yellow;
-        transition-duration: 2s;
+      div#kf {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation: boxani 5s;
       }
 
-      div#trans:hover {
-        background-color: red;
+      @keyframes boxani {
+        0% {
+          background: green;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background: blue;
+          left: 150px;
+          top: 0px;
+        }
+        50% {
+          background: red;
+          left: 150px;
+          top: 150px;
+        }
+        75% {
+          background: yellow;
+          left: 0px;
+          top: 150px;
+        }
+        100% {
+          background: green;
+          left: 0px;
+          top: 0px;
+        }
       }
     </style>
   </head>
   <body>
-    <div id="trans">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga ad maiores nesciunt
-      voluptatibus facere reiciendis. Beatae repellendus, sint provident iusto distinctio cumque
-      voluptatibus deleniti cupiditate eveniet nobis iure eos!
+    <div id="kf">
+      Lorem ipsum
     </div>
   </body>
 </html>
