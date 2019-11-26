@@ -105,7 +105,7 @@ Sproget er inspireret af
 ## Moderne JavaScript udvikling er ikke bare lige...
 
 - Transpiler
-  - TypeScript, Babeæ
+  - TypeScript, Babel
 - Linters
   - ESLint
 - Libraries
